@@ -124,11 +124,10 @@ func init() {
 				Provider: newProvider,
 			},
 			{
-				Name:       "passphrase",
-				Help:       "Encryption Passphrase. To access existing objects enter passphrase used for uploading.",
-				Required:   false,
-				Provider:   newProvider,
-				IsPassword: true,
+				Name:     "passphrase",
+				Help:     "Encryption Passphrase. To access existing objects enter passphrase used for uploading.",
+				Required: false,
+				Provider: newProvider,
 			},
 		},
 	})
